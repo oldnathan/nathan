@@ -35,4 +35,4 @@ if (message.content.startsWith(PrEfix + 'st')) {
 
 
 
-client.login("mfa.3u2OtiGocxhvTxSdCJThr87a5C5guWD9yksfTJBLiBqr57kyZSG0FCB02ul27S98THXi2idlFFfHhAhO2CPh");
+
