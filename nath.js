@@ -33,6 +33,4 @@ if (message.content.startsWith(PrEfix + 'st')) {
 
 });
 
-
-
-
+client.login(process.env.BOT_TOKEN);
