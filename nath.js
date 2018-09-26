@@ -14,5 +14,9 @@ client.on('guildMemberAdd',async member => {
   member.guild.channels.find(r => r.id === '492406462476451840').send('**# Willkommen Bei Bُubbles Tumblr .**');
 },3000);
 });
+client.on('ready', () => {
+  client.user.setActivity('Some of the music has comfort', { type: 'Playing' });
+  client.user.setStatus("dnd");
+});
 
 client.login(process.env.BOT_TOKEN);
