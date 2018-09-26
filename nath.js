@@ -11,7 +11,7 @@ client.on('ready', () => {
 client.on('guildMemberAdd',async member => {
   if(member.guild.id !== '462347265747451914') return;
   setTimeout(function(){
-  member.guild.channels.find(r => r.id === '492406462476451840').send('Welcome To **Bõubbles** Tumblr .');
+  member.guild.channels.find(r => r.id === '492406462476451840').send('Welcome To **BÙubbles** Tumblr .');
 },3000);
 });
 
